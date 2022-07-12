@@ -1,0 +1,16 @@
+{
+  "name": "takehomeassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.23.2"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0"
+  }
+}

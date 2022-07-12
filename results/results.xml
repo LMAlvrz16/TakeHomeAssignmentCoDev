@@ -1,0 +1,37 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="90.528">
+<testsuite name="VerifyMaxSupply.spec.ts" timestamp="1657630759427" hostname="" tests="1" failures="1" skipped="0" time="90.105" errors="0">
+<testcase name="Verify Max Supply" classname="[chromium] › VerifyMaxSupply.spec.ts:5:1 › Verify Max Supply" time="90.105">
+<failure message="VerifyMaxSupply.spec.ts:5:1 Verify Max Supply" type="FAILURE">
+<![CDATA[  [chromium] › VerifyMaxSupply.spec.ts:5:1 › Verify Max Supply =====================================
+
+    Timeout of 90000ms exceeded.
+
+    Error: Unable to find href.
+    Message: Error: page.getAttribute: Target closed
+    =========================== logs ===========================
+    waiting for selector "//div[@id='readCollapse6']//div//form//div[@class='form-group']//a"
+    ============================================================
+
+      14 |
+      15 |     // This will verify the Max Supply
+    > 16 |     var maxSupply = await polygonscan.VerifyMaxSupply();
+         |                     ^
+      17 |     console.log(maxSupply);
+      18 | })
+
+        at PolygonScanPage.getAttributeValue (C:\Users\Louie\TakeHomeAssignment\models\Common.ts:252:19)
+        at PolygonScanPage.VerifyMaxSupply (C:\Users\Louie\TakeHomeAssignment\models\PolygonScanPage.ts:41:37)
+        at C:\Users\Louie\TakeHomeAssignment\tests\VerifyMaxSupply.spec.ts:16:21
+
+    Pending operations:
+      - page.getAttribute at models\Common.ts:240:48
+
+]]>
+</failure>
+<system-out>
+<![CDATA[Contract Tab was clicked.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
